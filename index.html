@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar's Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Main Page -->
+    <header>
+        <!-- Hamburger Responsive Nav Bar -->
+        <div class="hamburger-nav">
+            <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+            <ul class="hamburger-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!-- Desktop Nav Bar -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="intro">
+            <h1 class="my-name">Hey, it's Oscar Caicedo!</h1>
+                <p class="paragraph-intro">I am a front-end web developer and designer<br> currently based in Chicago, Illinois. </p>
+                <a class="projects-btn" href="#projects">View projects</a>
+        </div>
+
+    </header>
+    
+
+
+    <!-- Projects Page -->
+    <section>
+        <div class="projects-page" id="projects">
+            <div class="projects-grid">
+                <div>
+                    <img class="project-img1" src="images/Screen Shot 2020-08-12 at 12.15.42 PM.png">
+                </div>
+
+                <section>
+                    <div class="right-box"><h2>Starbucks Website Clone</h2>
+                        <br>
+                        <p>Replicated the Starbucks website using HTML5 and CSS3. Replicated the StarbuReplicated the Starbucks website using HTML5 and CSS3.cks website using HTML5 and CSS3.</p>
+                        <a class="right-projects-btn" href="#">View project</a>
+                    </div>
+                </section>
+            </div>
+
+            <div class="projects-grid-two">
+                <section>
+                    <div class="left-box"><h2>Restaurant Website Clone</h2>
+                        <br>
+                        <p>Created a restaurant website that shows my progress on the front-end side. Created a restaurant shows my progress on the front-end side. e that shows my progress on the front-end side.</p>
+                        <a class="left-projects-btn" href="#">View project</a>
+
+                    </div>
+                </section>
+
+                <img class="project-img2" src="images/Screen Shot 2020-08-12 at 12.21.41 PM.png">
+            </div>
+        </div>
+
+        <div class="small-examples-grid">
+            <div>
+                <h3>Gym Clone</h3>
+                <img class="img-coffee" src="images/29B5BA8B-583C-422C-BEF4-BFACC47F3A47_1_105_c.jpeg">
+                <a class="section-btn" href="#">View project</a>
+            </div>
+
+            <div>
+                <h3>JavaScript Calculator</h3>
+                <img class="img-coffee2" src="images/Screen Shot 2020-08-12 at 1.03.22 PM.png">
+                <a class="section-btn" href="#">View project</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Page -->
+    <section>
+        <div class="about-page" id="about">
+        <hr class="divisor"></hr>
+
+                <div class="flex-wrapper">
+                    
+                    <div>
+                        <img class="hexagon-img1" src="images/photo-1508830524289-0adcbe822b40.jpeg">
+                        <div>
+                            <h3 class="label">Responsive</h3>
+                                <p class="paragraph">My layouts will work on any device, big or small.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="hexagon-img2" src="images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg">
+                        <div>
+                            <h3 class="label">Dynamic</h3>
+                                <p class="paragraph">My layouts will work on any device, big or small.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="hexagon-img3" src="images/fernando-hernandez-JdoofvUDUwc-unsplash.jpg">
+                        <div>
+                            <h3 class="label">Self-taught</h3>
+                                <p class="paragraph">My layouts will work on any device, big or small.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="grid2">
+                    
+                    <div>
+                        <img class="hexagon-img4" src="images/fernando-hernandez-JdoofvUDUwc-unsplash.jpg">
+                    </div>
+
+                    <div>
+                        <p class="skills-heading"><b>Who am I?</b><br> I am a self-taught front-end developer with a passion for developing, creating, and designing websites and applications. I was born and raised in Chicago and received my undergraduate degree from DePaul University.</p>
+                        <h2 class="skill-label">Skills:</h2>
+                        <div class="list-grid">
+                            <ul class="skills-list">
+                                <li>Html5</li>
+                                <li>Css</li>
+                                <li>Javascript</li>
+                                <li>Scss</li>
+                            </ul>
+                            
+                            <ul class="skills-list">
+                                <li>Boostrap</li>
+                                <li>react</li>
+                                <li>Python</li>
+                                <li>Photoshop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section>
+        <div class="contact-page" id="contact">
+            <a class="contact-title" id="contact"><h2>Contact</h2></a>
+        
+            <main class="container-flex">
+                <div class="email-heading">Let's Work Together!</div>
+                    <form action="contactform.php" method="post">
+                        <input type="text" name="name" placeholder="Full name">
+                        <input type="text" name="mail" placeholder="Your e-email">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit" name="submit">Send E-mail</button>
+                    </form>
+            </main>
+
+            <section class="social-wrap">
+                <div class="social-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Oscar Caicedo - 2020</p>
+        </footer>
+
+    </section>
+
+    <!-- Scroll button @ bottom right -->
+    <a class="scroll-btn" href="#top">Scroll to top</a>
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
