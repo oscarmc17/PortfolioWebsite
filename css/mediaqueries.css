@@ -1,0 +1,503 @@
+/* Main page Mobile */
+
+@media all and (max-width: 768px) {
+    .nav-links li a {
+        display: none;
+    }
+    
+    .my-name {
+        font-size: 75px;
+        line-height: 100px;
+        margin: 20px;
+    }
+    
+    .paragraph-intro {
+        font-size: 25px;
+        line-height: 55px;
+    }
+
+    .projects-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+/* Projects Media Query */
+
+@media screen and (max-width: 768px) {
+    .projects-page {
+        height: 540vh;
+    }
+
+    .project-img1 {
+        height: 400px;
+        width: 100%;
+    }
+
+    .right-box{ 
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    
+    .right-projects-btn {
+        font-size: 16px;
+    }
+
+    .project-img2 {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .left-box{ 
+        text-align: center;
+    }
+    
+    .left-projects-btn {
+        position: relative;
+        font-size: 16px;
+    }
+
+    .my-container {
+        text-align: center;
+    }
+    
+    .img-coffee {
+        height: 400px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .img-coffee2 {
+        height: 400px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .title1 {
+        margin: 10px;
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+    }
+    
+    .title2{
+        margin-top: 150px;
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+    }
+    
+    .section-btn{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page Media Queries */
+@media screen and (max-width: 768px) {
+    .about-page {
+        /* height: 100vh;
+        background-color: #e0e0e0; */
+    }
+
+    .divisor {
+        height: 1px;
+        position: relative;
+        top: -45%;
+        left: 25%;
+    }
+
+    .flex-wrapper {
+        position: relative;
+        top: -40%;
+    }
+
+    .flex-wrapper .label {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .flex-wrapper .paragraph {
+        font-size: 12px;
+    }
+
+    .hexagon-img1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img3 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img4 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skills-heading {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 7%;
+    }
+
+    .skill-label {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    .skills-list li {
+        text-align: center;
+        font-size: 18px;
+        margin-left: 35%;
+        text-align: left;
+        font-size: 11px;
+        line-height: 14px;
+    }
+}
+
+
+
+/* Contact Page */
+
+@media screen and (max-width: 768px) {
+    .contact-page {
+        height: 45vh;
+        background-color: #22262a;
+    }
+
+    /* .container-flex {
+        position: relative;
+        top: 225px;
+    } */
+
+    .email-heading {
+        font-size: 20px;
+    }
+
+    .contact-btn {
+        font-size: 16px;
+    }
+
+    .social-menu ul  li .fa {
+        font-size: 18px;
+        line-height: 45px;
+    }
+
+    .social-menu ul li a { 
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+/* Footer Section */
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 14px;
+        padding: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main page Mobile */
+
+@media all and (max-width: 430px) {
+    .nav-links li a {
+        display: none;
+    }
+    
+    .my-name {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .paragraph-intro {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .projects-btn {
+        padding: 12px;
+        font-size: 14px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* Projects Media Query */
+
+@media screen and (max-width: 430px) {
+    .projects-page {
+        height: 400vh;
+    }
+
+    .project-img1 {
+        height: 275px;
+        width: 100%;
+    }
+
+    .right-box{ 
+        text-align: center;
+        padding: 30px;
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+    }
+
+    .right-box h2{
+        font-size: 24px;
+    }
+    
+    .right-projects-btn {
+        font-size: 10px;
+        position: relative;
+        top: 12px;
+        padding: 10px 15px;
+    }
+
+    .project-img2 {
+        height: 275px;
+        width: 100%;
+        position: relative;
+        top: -140px;
+    }
+    
+    .left-box{ 
+        text-align: center;
+        padding: 30px;
+        font-size: 12px;
+        position: relative;
+        top: -120px;
+    }
+
+    .left-box h2{
+        font-size: 24px;
+    }
+    
+    .left-projects-btn {
+        font-size: 10px;
+        position: relative;
+        top: 12px;
+        padding: 10px 15px;
+    }
+
+    .my-container {
+        text-align: center;
+    }
+    
+    .img-coffee {
+        height: 275px;
+        width: 100%;
+        margin-top: -60px;
+    }
+    
+    .img-coffee2 {
+        width: 100%;
+        height: 275px;
+    }
+    
+    .title1 {
+        margin: 10px;
+        font-size: 18px;
+        position: relative;
+        top: -60px;
+    }
+    
+    .title2{
+        margin-top: 120px;
+        font-size: 18px;
+        position: relative;
+        top: 50px;
+    }
+    
+    .section-btn{
+        font-size: 10px;
+    }
+}
+
+
+/* About Page Media Queries */
+@media screen and (max-width: 430px) {
+    .about-page {
+        /* height: 125vh;
+        background-color: #e0e0e0; */
+    }
+
+    .divisor {
+        height: 1px;
+        position: relative;
+        top: -40%;
+        left: 25%;
+    }
+
+    .flex-wrapper {
+        position: relative;
+        top: -40%;
+    }
+
+    .flex-wrapper .label {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .flex-wrapper .paragraph {
+        font-size: 12px;
+    }
+
+    .hexagon-img1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img3 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hexagon-img4 {
+        width: 200px;
+        height: 200px;
+        margin-left: 55px;
+    }
+
+    .skills-heading {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+
+    .skill-label {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 15%;
+        margin-left: 70px;
+    }
+
+    .skills-list li {
+        text-align: center;
+        font-size: 18px;
+        margin-left: 35%;
+        text-align: left;
+        font-size: 10px;
+        line-height: 14px;
+        margin-left: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Contact Page */
+
+@media screen and (max-width: 430px) {
+    .contact-page {
+        height: 35vh;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35vh;
+    }
+
+    .email-heading {
+        font-size: 14px;
+    }
+
+    .contact-btn {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .social-menu ul  li .fa {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .social-menu ul li a { 
+        width: 30px;
+        height: 30px;
+        /* margin-bottom: 70px; */
+    }
+}
+
+
+/* Footer Section */
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+
+
