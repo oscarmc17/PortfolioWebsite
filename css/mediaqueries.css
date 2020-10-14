@@ -1,8 +1,178 @@
 /* Main page Mobile */
+.ham-container {
+    display: none;
+}
+
+@media all and (max-width: 768px){
+
+      .ham-container {
+        display: inline;
+    }
+      .ham-container .navbar {
+        width: 200px;
+        height: 100%;
+        background-color: #22262a;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+        transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+        z-index: 15;
+    }
+      .ham-container .change {
+        right: 0;
+    }
+      .ham-container .hamburger-menu {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+      .ham-container .hamburger-menu .line {
+        width: 100%;
+        height: 3px;
+        background-color:#4b6cc1;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+      .ham-container .change .line-1 {
+        -webkit-transform: rotateZ(-405deg) translate(-8px, 6px);
+                transform: rotateZ(-405deg) translate(-8px, 6px);
+    }
+      .ham-container .change .line-2 {
+        opacity: 0;
+    }
+      .ham-container .change .line-3 {
+        -webkit-transform: rotateZ(405deg) translate(-8px, -6px);
+                transform: rotateZ(405deg) translate(-8px, -6px);
+    }
+      .ham-container .nav-list {
+        text-align: right;
+    }
+      .ham-container .nav-list .nav-item {
+        list-style: none;
+        margin: 25px;
+    }
+      .ham-container .nav-list .nav-item .nav-link {
+        text-decoration: none;
+        font-size: 22px;
+        color: #eee;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        padding: 3px 0;
+    }
+      .ham-container .nav-link::before,
+      .ham-container .nav-link::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #4b6cc1;
+        position: absolute;
+        left: 0;
+        -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
+        transition: transform 0.5s, -webkit-transform 0.5s;
+    }
+      .ham-container .nav-link::after {
+        bottom: 0;
+        -webkit-transform-origin: right;
+                transform-origin: right;
+    }
+      .ham-container .nav-link::before {
+        top: 0;
+        -webkit-transform-origin: left;
+                transform-origin: left;
+    }
+      .ham-container .nav-link:hover::before,
+      .ham-container .nav-link:hover::after {
+        -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+    }
+      .desktop-nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 991px) {
+    .left-box{
+        margin-top: -40px;
+    }
+    
+    .half-img2 {
+        margin-top: 100px;
+    }
+
+    .label {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .title2 {
+        position: relative;
+        top: 100px;
+    }
+    
+    .skills-heading {
+        text-align: center;
+        position: relative;
+        left: 3%;
+    }
+
+    .skill-label {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .skill-label {
+        font-size: 24px;
+        margin-left: 15%;
+    }
+
+
+    .skills-list li {
+        margin-left: 35%;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
 
 @media all and (max-width: 768px) {
     .nav-links li a {
-        display: none;
+        font-size: 20px;
     }
     
     .my-name {
@@ -62,13 +232,13 @@
         text-align: center;
     }
     
-    .img-coffee {
+    .half-img1 {
         height: 400px;
         width: 100%;
         margin-top: 40px;
     }
     
-    .img-coffee2 {
+    .half-img2 {
         height: 400px;
         width: 100%;
         margin-top: 40px;
@@ -94,34 +264,8 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Page Media Queries */
 @media screen and (max-width: 768px) {
-    .about-page {
-        /* height: 100vh;
-        background-color: #e0e0e0; */
-    }
-
     .divisor {
         height: 1px;
         position: relative;
@@ -129,38 +273,39 @@
         left: 25%;
     }
 
-    .flex-wrapper {
+    /* .flex-wrapper {
         position: relative;
         top: -40%;
-    }
+    } */
 
-    .flex-wrapper .label {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-
-    .flex-wrapper .paragraph {
-        font-size: 12px;
+    .paragraph {
+        font-size: 18px;
     }
 
     .hexagon-img1 {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .hexagon-img2 {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .hexagon-img3 {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .hexagon-img4 {
         width: 250px;
         height: 250px;
+    }
+
+    .label {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 15px;
     }
 
     .skills-heading {
@@ -177,29 +322,22 @@
     }
 
     .skills-list li {
-        text-align: center;
-        font-size: 18px;
+        /* text-align: center; */
+        font-size: 14px;
         margin-left: 35%;
         text-align: left;
-        font-size: 11px;
-        line-height: 14px;
+        line-height: 18px;
     }
 }
 
 
 
 /* Contact Page */
-
 @media screen and (max-width: 768px) {
     .contact-page {
-        height: 45vh;
+        /* height: 45vh; */
         background-color: #22262a;
     }
-
-    /* .container-flex {
-        position: relative;
-        top: 225px;
-    } */
 
     .email-heading {
         font-size: 20px;
@@ -254,11 +392,12 @@
 
 
 
-/* Main page Mobile */
 
+
+/* Main page Mobile */
 @media all and (max-width: 430px) {
     .nav-links li a {
-        display: none;
+        font-size: 17px;
     }
     
     .my-name {
@@ -280,14 +419,13 @@
 }
 
 /* Projects Media Query */
-
 @media screen and (max-width: 430px) {
     .projects-page {
         height: 400vh;
     }
 
     .project-img1 {
-        height: 275px;
+        height: 325px;
         width: 100%;
     }
 
@@ -296,7 +434,7 @@
         padding: 30px;
         font-size: 12px;
         position: relative;
-        top: -20px;
+        top: -50px;
     }
 
     .right-box h2{
@@ -304,17 +442,17 @@
     }
     
     .right-projects-btn {
-        font-size: 10px;
+        font-size: 12px;
         position: relative;
         top: 12px;
         padding: 10px 15px;
     }
 
     .project-img2 {
-        height: 275px;
+        height: 325px;
         width: 100%;
         position: relative;
-        top: -140px;
+        top: -200px;
     }
     
     .left-box{ 
@@ -322,7 +460,7 @@
         padding: 30px;
         font-size: 12px;
         position: relative;
-        top: -120px;
+        top: -140px;
     }
 
     .left-box h2{
@@ -330,7 +468,7 @@
     }
     
     .left-projects-btn {
-        font-size: 10px;
+        font-size: 12px;
         position: relative;
         top: 12px;
         padding: 10px 15px;
@@ -340,44 +478,40 @@
         text-align: center;
     }
     
-    .img-coffee {
-        height: 275px;
+    .half-img1 {
+        height: 300px;
         width: 100%;
-        margin-top: -60px;
+        margin-top: -250px;
     }
     
-    .img-coffee2 {
+    .half-img2 {
         width: 100%;
-        height: 275px;
+        height: 300px;
+        margin-top: 10px;
     }
     
     .title1 {
         margin: 10px;
         font-size: 18px;
         position: relative;
-        top: -60px;
+        top: -250px;
     }
     
     .title2{
-        margin-top: 120px;
         font-size: 18px;
         position: relative;
-        top: 50px;
+        top: 20px;
     }
     
     .section-btn{
-        font-size: 10px;
+        font-size: 12px;
+        padding: 10px 15px;
     }
 }
 
 
 /* About Page Media Queries */
 @media screen and (max-width: 430px) {
-    .about-page {
-        /* height: 125vh;
-        background-color: #e0e0e0; */
-    }
-
     .divisor {
         height: 1px;
         position: relative;
@@ -385,72 +519,61 @@
         left: 25%;
     }
 
-    .flex-wrapper {
-        position: relative;
-        top: -40%;
-    }
-
-    .flex-wrapper .label {
+    .label {
         font-size: 20px;
         margin-top: 10px;
     }
 
-    .flex-wrapper .paragraph {
-        font-size: 12px;
+    .paragraph {
+        font-size: 14px;
     }
 
     .hexagon-img1 {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
     }
 
     .hexagon-img2 {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
     }
 
     .hexagon-img3 {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
     }
 
     .hexagon-img4 {
-        width: 200px;
-        height: 200px;
-        margin-left: 55px;
+        width: 225px;
+        height: 225px;
+    }
+
+    .label {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
     }
 
     .skills-heading {
         text-align: center;
-        font-size: 12px;
-        margin-top: 5px;
-        margin-left: 70px;
+        font-size: 18px;
     }
 
     .skill-label {
-        font-size: 16px;
-        text-align: left;
-        margin-left: 15%;
-        margin-left: 70px;
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        /* margin-left: 15%; */
+        margin-left: 0px;
     }
 
     .skills-list li {
-        text-align: center;
-        font-size: 18px;
-        margin-left: 35%;
         text-align: left;
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 18px;
         margin-left: 70px;
     }
 }
-
-
-
-
-
-
-
 
 
 /* Contact Page */
@@ -467,10 +590,12 @@
         align-items: center;
         width: 100%;
         height: 35vh;
+        position: relative;
+        top: 8px;
     }
 
     .email-heading {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .contact-btn {
@@ -486,16 +611,15 @@
     .social-menu ul li a { 
         width: 30px;
         height: 30px;
-        /* margin-bottom: 70px; */
+        margin-bottom: 60px;
     }
 }
 
 
 /* Footer Section */
-
 @media screen and (max-width: 768px) {
     footer {
-        font-size: 12px;
+        font-size: 14px;
         padding: 7px;
     }
 }

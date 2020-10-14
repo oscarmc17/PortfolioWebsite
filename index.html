@@ -14,27 +14,37 @@
 
     <!-- Main Page -->
     <header>
-        <!-- Hamburger Responsive Nav Bar -->
-        <div class="hamburger-nav">
-            <div class="hamburger">
-                <div class="line line1"></div>
-                <div class="line line2"></div>
-                <div class="line line3"></div>
+        
+        <div class="ham-container">
+            <div class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="hamburger-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </div>
+    
 
 
 
         <!-- Desktop Nav Bar -->
-        <nav>
+        <nav class="desktop-nav">
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <!-- <li><a href="#projects">Projects</a></li> -->
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -54,33 +64,33 @@
 
         <div class="container-fluid projects-container">
             <div class="row projects-my-row">
-                <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col my-col col-lg-7 col-md-12 col-sm-12 col-12">
                     <div>
-                        <img class="project-img1" src="images/Screen Shot 2020-08-12 at 12.15.42 PM.png">
+                        <img class="project-img1" src="images/coffeeshop.png">
                     </div>
                 </div>
 
-                <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="right-box"><h2>Starbucks Website Clone</h2>
+                <div class="col my-col col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="right-box"><h2>Coffee Shop Website</h2>
                         <br>
-                        <p>Replicated the Starbucks website using HTML5 and CSS3. Replicated the StarbuReplicated the Starbucks website using HTML5 and CSS3.cks website using HTML5 and CSS3.</p>
-                        <a class="right-projects-btn" href="#">View project</a>
+                        <p>Created a responsive coffee shop website using HTML, CSS, JavaScript, SCSS/SASS, and Boostrap.</p>
+                        <a class="right-projects-btn" href="https://oscarmc17.github.io/CoffeeShopWebsite/">View Website</a>
                     </div>
                 </div>
             </div>
 
             <div class="row my-row">
-                <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="left-box"><h2>Restaurant Website Clone</h2>
+                <div class="col my-col col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="left-box"><h2>Gym Website</h2>
                         <br>
-                        <p>Created a restaurant website that shows my progress on the front-end side. Created a restaurant shows my progress on the front-end side. e that shows my progress on the front-end side.</p>
-                        <a class="left-projects-btn" href="#">View project</a>
+                        <p>Created a website for a gym. This site was written from scratch using the latest front-end tech stack and it's fully responsive.</p>
+                        <a class="left-projects-btn" href="https://oscarmc17.github.io/gym-website/">View Website</a>
                     </div>
                 </div>
 
-                <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col my-col col-lg-7 col-md-12 col-sm-12 col-12">
                     <div>
-                        <img class="project-img2" src="images/Screen Shot 2020-08-12 at 12.21.41 PM.png">
+                        <img class="project-img2" src="images/troysgym.png">
                     </div>
                 </div>
             </div>
@@ -89,17 +99,17 @@
                 <div class="row my-row">
                     <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
                         <div>
-                            <h3 class="title1">Gym Clone</h3>
-                            <img class="img-coffee" src="images/29B5BA8B-583C-422C-BEF4-BFACC47F3A47_1_105_c.jpeg">
-                            <a class="section-btn" href="#">View project</a>
+                            <h3 class="title1">Restaurant Website</h3>
+                            <img class="half-img1" src="images/restaurant.png">
+                            <a class="section-btn" href="#">View GitHub Repo</a>
                         </div>
                     </div>
     
                     <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
                         <div>
                             <h3 class="title2">JavaScript Calculator</h3>
-                            <img class="img-coffee2" src="images/Screen Shot 2020-08-12 at 1.03.22 PM.png">
-                            <a class="section-btn" href="#">View project</a>
+                            <img class="half-img2" src="images/Screen Shot 2020-08-12 at 1.03.22 PM.png">
+                            <a class="section-btn" href="#">View GitHub Repo</a>
                         </div>
                     </div>
                 </div>
@@ -116,19 +126,19 @@
                         <div class="col my-col col-lg-4 col-md-4 col-sm-12 col-12">
                             <img class="hexagon-img1" src="images/photo-1508830524289-0adcbe822b40.jpeg">
                                 <h3 class="label">Responsive</h3>
-                                    <p class="paragraph">My layouts will work on any device, big or small.asdfdsasdfdsasdfsdasdfadafsd<br>asd;fljka;sdfj;lkdjf</p>
+                                    <p class="paragraph">I create layouts that will work on any device, from 4k screens down to any size phone.</p>
                         </div>
     
                         <div class="col my-col col-lg-4 col-md-4 col-sm-12 col-12">
                             <img class="hexagon-img2" src="images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg">
-                                <h3 class="label">Dynamic</h3>
-                                    <p class="paragraph">My layouts will work on any device, big or small.aadsfsdafasdf<br>al;djsf;jfsafasdfdfadsasd</p>
+                                <h3 class="label">User Focused</h3>
+                                    <p class="paragraph">User focused design is my primary goal when building any website because I want the user to have a meticulous experience.</p>
                         </div>
     
                         <div class="col my-col col-lg-4 col-md-4 col-sm-12 col-12">
-                            <img class="hexagon-img3" src="images/fernando-hernandez-JdoofvUDUwc-unsplash.jpg">
-                                <h3 class="label">Self-taught</h3>
-                                    <p class="paragraph">My layouts will work on any device, big or small.asdfdassdfdsasdfsdasdfsadfsedfdfa</p>
+                            <img class="hexagon-img3" src="images/mypic.JPG">
+                                <h3 class="label">HTML / CSS</h3>
+                                    <p class="paragraph">Creating a strong foundation for a website means getting the HTML and CSS architecture right. If you've got a design, I can create the front-end code for it</p>
                        </div>
                     </div>
                 </div>
@@ -145,14 +155,14 @@
         
                         <div class="col my-col col-lg-6 col-md-12 col-sm-12 col-12">
                             <div>
-                                <p class="skills-heading"><b>Who am I?</b><br> I am a self-taught front-end developer with a passion for developing, creating, and designing websites and applications. I was born and raised in Chicago and received my undergraduate degree from DePaul University.</p>
+                                <p class="skills-heading"><b>Who am I?</b><br> I am a self-taught front-end developer with a passion for developing, creating, and designing websites and applications. I'm born and raised in Chicago and received my undergraduate degree from DePaul University.</p>
                                 <h2 class="skill-label">Skills:</h2>
                                 <div class="list-grid">
                                     <ul class="skills-list">
                                         <li>Html5</li>
                                         <li>Css</li>
-                                        <li>Javascript</li>
-                                        <li>Sass</li>
+                                        <li>JavaScript</li>
+                                        <li>Scss/Sass</li>
                                     </ul>
                                     
                                     <ul class="skills-list">
@@ -173,16 +183,15 @@
             <div class="contact-page" id="contact">
             
                 <main class="container-flex">
-                    <div class="email-heading">If you are hiring a front-end developer or have any questions, please <br>don't hesitate to contact me!</div>
+                    <div class="email-heading">For any inquiries, questions, or comments please <br>contact me below!</div>
                             <a class="contact-btn" href="mailto:oscarccd17@gmail.com">Contact Me</a>
     
                     <section class="social-wrap">
                         <div class="social-menu">
                             <ul>
-                                <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-                                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/oscar.devs/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/oscarmc17/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/oscarmc17"><i class="fa fa-github"></i></a></li>
                             </ul>
                         </div>
                     </section> 
@@ -195,9 +204,6 @@
             
         </section> 
     </div>
-
-
     <script src="app.js"></script>
-
 </body>
 </html>

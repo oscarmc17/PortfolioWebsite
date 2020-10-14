@@ -1,13 +1,14 @@
-const hamburger = document.querySelector(".hamburger");
-const hamburgerLinks = document.querySelector(".hamburger-links");
-const links = document.querySelectorAll(".hamburger-links li");
+const menuIcon = document.querySelector('.hamburger-menu');
+const navbar = document.querySelector('.navbar');
+const navItems = document.querySelector('.nav-list');
 
-hamburger.addEventListener("click", () => {
-    hamburgerLinks.classList.toggle("open");
-    links.forEach(link => {
-        link.classList.toggle("fade");
-    
-    });
-    //Burger Animation
-    hamburger.classList.toggle("toggle");
-});
+function hamMenu() {
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle("change");
+    })
+    navItems.addEventListener('click', () => {
+        navbar.classList.remove("change");
+    })
+};
+
+hamMenu();
