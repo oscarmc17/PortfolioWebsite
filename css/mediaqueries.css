@@ -311,8 +311,9 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
-        margin-top: 5px;
-        margin-left: 7%;
+        position: relative;
+        left: 7%;
+        margin: 15px -15px;
     }
 
     .skill-label {
@@ -563,7 +564,6 @@
         font-size: 22px;
         text-align: center;
         color: black;
-        /* margin-left: 15%; */
         margin-left: 0px;
     }
 
@@ -580,7 +580,7 @@
 
 @media screen and (max-width: 430px) {
     .contact-page {
-        height: 35vh;
+        height: 40vh;
     }
 
     .container-flex {
@@ -614,7 +614,6 @@
         margin-bottom: 60px;
     }
 }
-
 
 /* Footer Section */
 @media screen and (max-width: 768px) {
