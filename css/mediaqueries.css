@@ -37,7 +37,7 @@
         height: 30px;
         position: fixed;
         top: 50px;
-        right: 50px;
+        right: 45px;
         cursor: pointer;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -430,6 +430,10 @@
         width: 100%;
     }
 
+    .desc-text {
+        font-size: 16px;
+    }
+
     .right-box{ 
         text-align: center;
         padding: 30px;
@@ -526,7 +530,7 @@
     }
 
     .paragraph {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .hexagon-img1 {
@@ -580,7 +584,7 @@
 
 @media screen and (max-width: 430px) {
     .contact-page {
-        height: 40vh;
+        height: 38vh;
     }
 
     .container-flex {
@@ -595,31 +599,69 @@
     }
 
     .email-heading {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contact-btn {
-        font-size: 14px;
+        font-size: 18px;
         padding: 5px 15px;
     }
 
     .social-menu ul  li .fa {
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 45px;
     }
 
     .social-menu ul li a { 
-        width: 30px;
-        height: 30px;
-        margin-bottom: 60px;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 50px;
     }
 }
 
+
 /* Footer Section */
-@media screen and (max-width: 768px) {
-    footer {
+@media screen and (max-width: 380px) {
+    .ham-container .hamburger-menu {
+        position: fixed;
+        right: 20px;
+    }
+
+    .desc-text {
         font-size: 14px;
-        padding: 7px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .contact-page {
+        height: 40vh;
+    }
+
+    .container-flex {
+        height: 40vh;
+        position: relative;
+        top: 18px;
+    }
+
+    .email-heading {
+        font-size: 18px;
+    }
+
+    .contact-btn {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    .social-menu ul  li .fa {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .social-menu ul li a { 
+        width: 35px;
+        height: 35px;
     }
 }
 
