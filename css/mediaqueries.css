@@ -37,7 +37,7 @@
         height: 30px;
         position: fixed;
         top: 50px;
-        right: 45px;
+        right: 20px;
         cursor: pointer;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -148,8 +148,6 @@
     
     .skills-heading {
         text-align: center;
-        position: relative;
-        left: 3%;
     }
 
     .skill-label {
@@ -195,9 +193,9 @@
 /* Projects Media Query */
 
 @media screen and (max-width: 768px) {
-    .projects-page {
+    /* .projects-page {
         height: 540vh;
-    }
+    } */
 
     .project-img1 {
         height: 400px;
@@ -311,9 +309,9 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
-        position: relative;
-        left: 7%;
-        margin: 15px -15px;
+        /* position: relative; */
+        /* left: 25px; */
+        margin: 15px;
     }
 
     .skill-label {
@@ -323,10 +321,7 @@
     }
 
     .skills-list li {
-        /* text-align: center; */
         font-size: 14px;
-        margin-left: 35%;
-        text-align: left;
         line-height: 18px;
     }
 }
@@ -402,18 +397,18 @@
     }
     
     .my-name {
-        font-size: 50px;
+        font-size: 56px;
         line-height: 60px;
     }
     
     .paragraph-intro {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 25px;
     }
 
     .projects-btn {
-        padding: 12px;
-        font-size: 14px;
+        padding: 10px 15px;
+        font-size: 16px;
         position: relative;
         top: 10px;
     }
@@ -431,7 +426,7 @@
     }
 
     .desc-text {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .right-box{ 
@@ -447,7 +442,7 @@
     }
     
     .right-projects-btn {
-        font-size: 12px;
+        font-size: 16px;
         position: relative;
         top: 12px;
         padding: 10px 15px;
@@ -473,7 +468,7 @@
     }
     
     .left-projects-btn {
-        font-size: 12px;
+        font-size: 16px;
         position: relative;
         top: 12px;
         padding: 10px 15px;
@@ -509,7 +504,7 @@
     }
     
     .section-btn{
-        font-size: 12px;
+        font-size: 16px;
         padding: 10px 15px;
     }
 }
@@ -530,7 +525,7 @@
     }
 
     .paragraph {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .hexagon-img1 {
@@ -562,20 +557,18 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
+        margin: 10px 0px 15px 0px;
     }
 
     .skill-label {
         font-size: 22px;
-        text-align: center;
-        color: black;
-        margin-left: 0px;
+        text-align: left;
     }
 
     .skills-list li {
         text-align: left;
         font-size: 14px;
         line-height: 18px;
-        margin-left: 70px;
     }
 }
 
@@ -603,18 +596,18 @@
     }
 
     .contact-btn {
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px 15px;
     }
 
     .social-menu ul  li .fa {
-        font-size: 20px;
-        line-height: 45px;
+        font-size: 24px;
+        line-height: 50px;
     }
 
     .social-menu ul li a { 
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         margin-bottom: 50px;
     }
 }
@@ -637,6 +630,11 @@
 
     .contact-page {
         height: 40vh;
+    }
+
+    .skills-heading {
+        text-align: center;
+        font-size: 18px;
     }
 
     .container-flex {
@@ -664,5 +662,3 @@
         height: 35px;
     }
 }
-
-
