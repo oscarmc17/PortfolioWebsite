@@ -557,18 +557,22 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
-        margin: 10px 0px 15px 0px;
+        margin: 10px 0px 25px 0px;
     }
 
     .skill-label {
         font-size: 22px;
         text-align: left;
+        position: relative;
+        left: -15px;
     }
 
     .skills-list li {
         text-align: left;
         font-size: 14px;
         line-height: 18px;
+        position: relative;
+        left: -15px;
     }
 }
 
@@ -635,6 +639,12 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
+    }
+
+    .skills-list li {
+        text-align: left;
+        font-size: 12px;
+        line-height: 18px;
     }
 
     .container-flex {
