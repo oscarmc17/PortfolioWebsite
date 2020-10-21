@@ -191,7 +191,6 @@
 }
 
 /* Projects Media Query */
-
 @media screen and (max-width: 768px) {
     .project-img1 {
         height: 400px;
@@ -633,6 +632,21 @@
         text-align: left;
         font-size: 12px;
         line-height: 18px;
+    }
+
+    .hexagon-img1 {
+        height: 125px;
+        width: 125px;
+    }
+
+    .hexagon-img2 {
+        height: 125px;
+        width: 125px;
+    }
+
+    .hexagon-img3 {
+        height: 125px;
+        width: 125px;
     }
 
     .container-flex {
