@@ -193,10 +193,6 @@
 /* Projects Media Query */
 
 @media screen and (max-width: 768px) {
-    /* .projects-page {
-        height: 540vh;
-    } */
-
     .project-img1 {
         height: 400px;
         width: 100%;
@@ -271,11 +267,6 @@
         left: 25%;
     }
 
-    /* .flex-wrapper {
-        position: relative;
-        top: -40%;
-    } */
-
     .paragraph {
         font-size: 18px;
     }
@@ -309,8 +300,6 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
-        /* position: relative; */
-        /* left: 25px; */
         margin: 15px;
     }
 
@@ -331,7 +320,6 @@
 /* Contact Page */
 @media screen and (max-width: 768px) {
     .contact-page {
-        /* height: 45vh; */
         background-color: #22262a;
     }
 
@@ -356,7 +344,6 @@
 
 
 /* Footer Section */
-
 @media screen and (max-width: 768px) {
     footer {
         font-size: 14px;
@@ -402,7 +389,7 @@
     }
     
     .paragraph-intro {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 25px;
     }
 
@@ -529,18 +516,18 @@
     }
 
     .hexagon-img1 {
-        height: 125px;
-        width: 125px;
+        height: 140px;
+        width: 140px;
     }
 
     .hexagon-img2 {
-        height: 125px;
-        width: 125px;
+        height: 140px;
+        width: 140px;
     }
 
     .hexagon-img3 {
-        height: 125px;
-        width: 125px;
+        height: 140px;
+        width: 140px;
     }
 
     .hexagon-img4 {
@@ -612,7 +599,8 @@
     .social-menu ul li a { 
         width: 50px;
         height: 50px;
-        margin-bottom: 50px;
+        position: relative;
+        bottom: 25px;
     }
 }
 
