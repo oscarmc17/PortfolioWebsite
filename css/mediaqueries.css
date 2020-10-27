@@ -221,13 +221,13 @@
     }
     
     .half-img1 {
-        height: 400px;
+        /* height: 400px; */
         width: 100%;
         margin-top: 40px;
     }
     
     .half-img2 {
-        height: 400px;
+        /* height: 400px; */
         width: 100%;
         margin-top: 40px;
     }
@@ -436,18 +436,11 @@
     }
 
     .project-img2 {
-        /* height: 325px; */
         width: 100%;
-        /* position: relative;
-        top: -200px; */
     }
     
-    .left-box{ 
-        /* text-align: center; */
-        /* padding: 30px; */
+    .left-box{
         font-size: 12px;
-        /* position: relative;
-        top: -140px; */
     }
 
     .left-box h2{
@@ -466,28 +459,19 @@
     }
     
     .half-img1 {
-        /* height: 300px; */
         width: 100%;
-        /* margin-top: -250px; */
     }
     
     .half-img2 {
         width: 100%;
-        /* height: 300px;
-        margin-top: 10px; */
     }
     
     .title1 {
-        /* margin: 10px; */
         font-size: 18px;
-        /* position: relative;
-        top: -250px; */
     }
     
     .title2{
         font-size: 18px;
-        /* position: relative;
-        top: 20px; */
     }
     
     .section-btn{
@@ -501,9 +485,6 @@
 @media screen and (max-width: 430px) {
     .divisor {
         height: 1px;
-        /* position: relative;
-        top: -40%;
-        left: 25%; */
     }
 
     .label {
@@ -544,7 +525,6 @@
     .skills-heading {
         text-align: center;
         font-size: 18px;
-        /* margin: 10px 0px 25px 0px; */
     }
 
     .skill-label {
@@ -556,8 +536,8 @@
 
     .skills-list li {
         text-align: left;
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 20px;
         position: relative;
         left: -15px;
     }
@@ -599,9 +579,6 @@
     .social-menu ul li a { 
         width: 50px;
         height: 50px;
-        /* position: relative;
-        bottom: 25px;
-    } */
     }
 }
 
